@@ -1,0 +1,47 @@
+header{
+    background-color:black;
+    height:90px;
+}
+
+.header-left h1{
+    color:white;
+}
+
+.header-right{
+    float:right;
+    background-color:red;
+}
+
+
+.header-right a{
+    display:inline-block;
+    color:white;
+    
+    
+}
+
+main{
+    height:600px;
+    background-color:brown;
+}
+
+.main-container{
+    text-align:center;
+    height:600px;
+    
+}
+
+.policy{
+    
+    color:aqua;
+}
+
+
+footer{
+    height:100px;
+    background-color:rgba(117, 109, 108, 0.684)
+}
+
+.footer-left{
+    float:left;
+}
