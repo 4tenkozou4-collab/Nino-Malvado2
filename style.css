@@ -1,28 +1,49 @@
+body {
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
 header{
     background-color:black;
-    height:90px;
+    height:130px;
 }
 
 .header-left h1{
     color:white;
 }
 
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 20px 30px;
+    
+}
+
 .header-right{
-    float:right;
+    display: flex;
+    align-items: center;
+    height: 90px;
     background-color:red;
 }
 
-
 .header-right a{
-    display:inline-block;
-    color:white;
-    
-    
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+    color: white;
+    text-decoration: none;
 }
 
 main{
     height:600px;
-    background-color:yellow;
+    background-color: rgba(255, 255, 12, 0.5);
 }
 
 .main-container{
@@ -32,8 +53,8 @@ main{
 }
 
 .policy{
-    
     color:aqua;
+    padding-top: 150px;
 }
 
 
