@@ -54,9 +54,16 @@ main{
 
 .policy{
     color:aqua;
-    padding-top: 150px;
+    padding-top: 170px;
 }
 
+.policy h1{
+    font-size:60px;
+}
+
+.policy h2{
+    font-size:40px;
+}
 
 footer{
     height:100px;
