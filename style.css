@@ -41,6 +41,7 @@ header{
     align-items: center;
     height: 90px;
     background-color: transparent;
+    
 
 }
 
@@ -52,6 +53,11 @@ header{
     color: white;
     font-weight: bold;
     text-decoration: none;
+    background-color:rgba(64, 58, 58, 0.484);
+}
+
+.header-right a:hover{
+  background-color:rgb(64, 58, 58);
 }
 
 main {
