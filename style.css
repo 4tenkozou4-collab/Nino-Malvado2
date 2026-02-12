@@ -18,6 +18,12 @@ a{
      padding:15px;
 }
 
+.top-header ul{
+    height:30px;
+    background-color:#282323;
+    margin:0;
+    
+}
 
 header{
     background:#111;
@@ -47,7 +53,7 @@ header{
     align-items: center;
     height: 90px;
     background-color: transparent;
-    
+    font-size:3.5rem;
 
 }
 
@@ -99,11 +105,15 @@ main {
 }
 
 .Recent-game{
-  height:150px;
+  height:300px;
   width:auto;
-  background-color:red;
+  background-color:white;
 }
 
+.Recent-game h1{
+  text-align:center;
+  
+}
 
 
 footer {
